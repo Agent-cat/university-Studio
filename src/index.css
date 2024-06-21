@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.InnerSidebar{
+  @apply   w-[94%] h-screen bg-black mt-3 ml-3 overflow-hidden rounded-3xl 
+}
+.ProfileDiv{
+    @apply bg-black text-white   font-bold w-[90%] flex justify-center mx-auto h-28 border-white border-b-2
+}
+.SidebarNavlink{
+  @apply  bg-black  text-white  font-bold hover:bg-gray-700  hover:duration-200 w-[90%]  flex  mx-auto py-3 rounded-lg
+}
+.Active{
+  @apply  text-white font-bold  bg-gray-700 w-[90%] flex  mx-auto py-3 rounded-lg items-center 
+}
+
