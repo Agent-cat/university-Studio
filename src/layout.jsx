@@ -70,7 +70,7 @@ function Layout() {
           </button>
         </div>
         {open && (
-          <div className=" fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
+          <div className=" z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
             <ul className="">
               {NavItems.map((items, index) => (
                 <NavLink
