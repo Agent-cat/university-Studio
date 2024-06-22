@@ -13,7 +13,7 @@ function AttendenceCalculator() {
   });
   return (
     <div className='w-full h-full bg-white'>
-      <h1 className='headding text-center text-red-500 font-bold font-[oswald] text-4xl  mt-6 tracking-wide'>Attendence Calculator</h1>
+      <h1 className='headding text-center text-red-600 font-bold font-[oswald] text-4xl  mt-6 tracking-wide'>Attendence Calculator</h1>
     </div>
   )
 }

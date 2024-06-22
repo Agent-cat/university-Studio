@@ -11,6 +11,7 @@ function Layout() {
   let end = () => {
     change(false);
   };
+ 
   let toggle = () => {
     change(!open);
   };
@@ -32,10 +33,22 @@ function Layout() {
   return (
     <div className=" vishnu w-full h-screen grid grid-cols-9 bg-white overflow ">
       <div className="bg-white div h-full col-span-2 md:flex hidden overflow-hidden ">
-        <div className=" InnerSidebar ">
+        <div className="  InnerSidebar ">
           <ul className="flex flex-col  justify-center overflow-hidden ">
             <div className="ProfileDiv"></div>
-
+            <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `${isActive ? " Active  nav  " : "SidebarNavlink nav"} mt-4`
+                }
+              >
+                <div className="ml-8">
+                  <img src="" alt="vi" />
+                </div>
+                <div className="  ml-3 ">
+                  <p className="">Home</p>
+                </div>
+              </NavLink>
             {NavItems.map((item, index) => (
               <NavLink
                 key={index}
@@ -57,6 +70,7 @@ function Layout() {
       </div>
 
       <div className="bg-white-400 h-full  col-span-9 overflow-x-scroll  md:col-span-7">
+        
         <div className=" w-full bg-white max-h-20  border-black border-b-2  md:h-20 flex  justify-between   items-center">
           <p className="ml-5 md:text-4xl font-[oswald] text-[6vw]  font-bold  ">
             University Studio
@@ -70,8 +84,24 @@ function Layout() {
           </button>
         </div>
         {open && (
-          <div className=" fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
+          <div className="z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
             <ul className="">
+            <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? " Active nav  " : "SidebarNavlink  nav "
+                    } mt-14`
+                  }
+                  onClick={end}
+                >
+                  <div className="ml-8">
+                    <img src="" alt="vi" />
+                  </div>
+                  <div className="  ml-3 ">
+                    <p className="">Home</p>
+                  </div>
+                </NavLink>
               {NavItems.map((items, index) => (
                 <NavLink
                   key={index}

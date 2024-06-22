@@ -1,5 +1,4 @@
 export const NavItems=[
-    {lable:"Home",to:"/"},
     {lable:"Attendence Calculator",to:"/Attendence-Calculator"},
     {lable:"Xerox",to:"/Xerox"},
     {lable:"Notes",to:"/Notes"},
