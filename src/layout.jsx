@@ -84,7 +84,11 @@ function Layout() {
           </button>
         </div>
         {open && (
+<<<<<<< HEAD
           <div className="z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
+=======
+          <div className=" z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
+>>>>>>> 3847a3022b10433b22f120c9a1f3c805dbfef55d
             <ul className="">
             <NavLink
                   to="/"
