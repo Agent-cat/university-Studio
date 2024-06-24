@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X , Home, } from "lucide-react";
 import { NavItems } from "./constants/constants";
 import { useGSAP } from "@gsap/react";
 
@@ -19,13 +19,13 @@ function Layout() {
     gsap.from(".nav", {
       opacity: 0,
       x: -20,
-      duration: 1,
-      stagger: 0.2,
+      duration: 0.5,
+      stagger: 0.1,
     });
     gsap.from(".div ",{
       opacity:30,
       x:-80,
-      duration:1.5,
+      duration:0.7,
     })
   });
   
@@ -35,7 +35,9 @@ function Layout() {
       <div className="bg-white div h-full col-span-2 md:flex hidden overflow-hidden ">
         <div className="  InnerSidebar ">
           <ul className="flex flex-col  justify-center overflow-hidden ">
-            <div className="ProfileDiv"></div>
+            <div className="ProfileDiv">
+              
+            </div>
             <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -43,7 +45,7 @@ function Layout() {
                 }
               >
                 <div className="ml-8">
-                  <img src="" alt="vi" />
+                 <Home/>
                 </div>
                 <div className="  ml-3 ">
                   <p className="">Home</p>
@@ -58,7 +60,7 @@ function Layout() {
                 }
               >
                 <div className="ml-8">
-                  <img src="" alt="vi" />
+                  {item.icon}
                 </div>
                 <div className="  ml-3 ">
                   <p className="">{item.lable}</p>
@@ -84,11 +86,7 @@ function Layout() {
           </button>
         </div>
         {open && (
-<<<<<<< HEAD
           <div className="z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
-=======
-          <div className=" z-40 fixed w-full h-screen bg-black md:hidden flex-col  text-2xl">
->>>>>>> 3847a3022b10433b22f120c9a1f3c805dbfef55d
             <ul className="">
             <NavLink
                   to="/"
@@ -100,7 +98,7 @@ function Layout() {
                   onClick={end}
                 >
                   <div className="ml-8">
-                    <img src="" alt="vi" />
+                  <Home/>
                   </div>
                   <div className="  ml-3 ">
                     <p className="">Home</p>
@@ -118,7 +116,7 @@ function Layout() {
                   onClick={end}
                 >
                   <div className="ml-8">
-                    <img src="" alt="vi" />
+                    {items.icon}
                   </div>
                   <div className="  ml-3 ">
                     <p className="">{items.lable}</p>
