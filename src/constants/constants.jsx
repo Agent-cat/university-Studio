@@ -7,6 +7,7 @@ export const NavItems=[
     {lable:"Gaming Studio",to:"/GamingStudio", icon: <Headset />},
     {lable:"About KLU",to:"/About-KLU", icon:<CircleHelp />},
     {lable:"About Us",to:"/About-Us", icon:<Instagram />}, 
+     
     
     
 ]
