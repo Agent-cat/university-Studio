@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Outlet } from "react-router-dom";
 import { Menu, X , Home, } from "lucide-react";
 import { NavItems } from "./constants/constants";
 import { useGSAP } from "@gsap/react";
-
+import NavRouts from "./Routes/NavRouts";
 import gsap from "gsap";
-function Layout() {
+function App() {
   let [open, change] = useState(false);
   let end = () => {
     change(false);
@@ -32,6 +31,7 @@ function Layout() {
 
   return (
     <div className=" vishnu w-full h-screen grid grid-cols-9 bg-white overflow ">
+   
       <div className="bg-white div h-full col-span-2 md:flex hidden overflow-hidden ">
         <div className="  InnerSidebar ">
           <ul className="flex flex-col  justify-center overflow-hidden ">
@@ -62,7 +62,7 @@ function Layout() {
                 <div className="ml-8">
                   {item.icon}
                 </div>
-                <div className="  ml-3 ">
+                <div className="  ml-5 ">
                   <p className="">{item.lable}</p>
                 </div>
               </NavLink>
@@ -118,7 +118,7 @@ function Layout() {
                   <div className="ml-8">
                     {items.icon}
                   </div>
-                  <div className="  ml-3 ">
+                  <div className="  ml-5 ">
                     <p className="">{items.lable}</p>
                   </div>
                 </NavLink>
@@ -126,11 +126,11 @@ function Layout() {
             </ul>
           </div>
         )}
-        <div className="outlet "></div>
-        <Outlet />
+        
+        <NavRouts/>
       </div>
     </div>
   );
 }
 
-export default Layout;
+export default App;
