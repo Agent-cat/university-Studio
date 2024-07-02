@@ -8,4 +8,5 @@ export const NavItems=[
     {lable:"About KLU",to:"/About-KLU", icon:<CircleHelp />},
     {lable:"About Us",to:"/About-Us", icon:<Instagram />}, 
     
+    
 ]
