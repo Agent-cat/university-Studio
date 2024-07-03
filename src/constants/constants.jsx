@@ -12,7 +12,7 @@ export const NavItems=[
     
 ]
 export const FirstYearSubjects=[
-   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"# ",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link ",icon:""},
    {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
    {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
    {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},

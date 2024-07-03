@@ -73,7 +73,7 @@ function App() {
 
       <div className="bg-white-400 h-full  col-span-9 overflow-hidden  md:col-span-7">
         
-        <div className=" w-full bg-white max-h-20   border-black border-b-2  md:h-20 flex  justify-between   items-center">
+        <div className=" w-full bg-white h-[70px]   border-black border-b-2  md:h-20 flex  justify-between   items-center">
           <p className="ml-5 md:text-4xl font-[oswald] text-[6vw]  font-bold  ">
             University Studio
           </p>
@@ -93,7 +93,7 @@ function App() {
                   className={({ isActive }) =>
                     `${
                       isActive ? " Active nav  " : "SidebarNavlink  nav "
-                    } mt-14`
+                    } mt-8`
                   }
                   onClick={end}
                 >

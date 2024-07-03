@@ -1,8 +1,9 @@
 import React from 'react'
   import { useGSAP } from '@gsap/react';
   import gsap from 'gsap';
- import { NavItems } from '../constants/constants';
+ 
   import { NavLink } from 'react-router-dom';
+import { CircleAlert } from 'lucide-react';
 const Notes = () => {
   useGSAP(() => {
     gsap.from(".headding", {
@@ -17,7 +18,7 @@ const Notes = () => {
     <div className='w-full h-screen bg-white overflow-hidden'>
       
       <h1 className='headding text-center text-red-600 font-bold font-[oswald] text-4xl  mt-6 tracking-wide'>Notes</h1>
-      <div className=" mt-10 mx-10 bg-gray-300 h-[47%] md:h-[50%] w-auto  rounded-lg ">
+      <div className=" mt-10 mx-10 bg-gray-300 h-[350px] md:h-[50%] w-auto  rounded-lg ">
          <p className="text-center font-bold text-3xl text-black p-5 tracking-wide "> Select Your Year </p>
          <div>
             <ul className="flex flex-col justify-center items-center">

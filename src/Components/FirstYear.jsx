@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FirstYearSubjects } from '../constants/constants'
 import { useGSAP } from '@gsap/react'
+import {CircleAlert} from 'lucide-react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 import gsap from 'gsap'
@@ -23,8 +24,8 @@ const FirstYear = () => {
             <ul className=" grid gris-cols-1 md:grid-cols-3 gap-4  items-center mx-[10%] md:mx-0  ">
               {
                 FirstYearSubjects.map((subject,index)=>(
-                  <div key={index} className=" Notes  col-span-1  text-black bg-white shadow-md bg-clip-border rounded-xl   w-[90%] md:w-auto">
-                  <div className="  mx-4 mt-4 overflow-hidden  text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40">
+                  <div key={index} className="   col-span-1 hover:scale-105 duration-100  text-black bg-white shadow-md bg-clip-border rounded-xl   w-[90%] md:w-auto">
+                  <div className="  mx-4 mt-4 overflow-hidden  text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-48">
                     <img src="https://docs.material-tailwind.com/img/team-3.jpg" alt="profile-picture" />
                   </div>
                   <div className="p-6 text-center">
@@ -33,11 +34,11 @@ const FirstYear = () => {
                     </h4>
                     <p
                       className="block font-sans text-base antialiased text-red-500 font-medium leading-relaxed  bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400">
-                        According to Y-23
+                       <span className='font-medium text-lg'>!</span> According to Y-23
                     </p>
                   </div>
                   <div className="flex justify-center p-6 pt-2 gap-7">
-                  <Link to={subject.DownloadLink} className="py-2 px-4 text-white font-bold bg-blue-500 rounded-lg ">
+                  <Link target='_blank' to={subject.DownloadLink} className="py-2 px-4 text-white font-bold bg-blue-500 rounded-lg ">
                     Download
                   </Link>
                   </div>
@@ -45,7 +46,7 @@ const FirstYear = () => {
                 ))
                
               }
-              
+             
             </ul>
             
           </div>
