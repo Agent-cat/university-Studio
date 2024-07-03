@@ -14,7 +14,7 @@ const Notes = () => {
     
   });
   return (
-    <div className='w-full h-screen bg-white overflow-x-scroll'>
+    <div className='w-full h-screen bg-white overflow-hidden'>
       
       <h1 className='headding text-center text-red-600 font-bold font-[oswald] text-4xl  mt-6 tracking-wide'>Notes</h1>
       <div className=" mt-10 mx-10 bg-gray-300 h-[50%] w-auto  rounded-lg ">
