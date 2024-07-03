@@ -9,10 +9,9 @@ const FirstYear = () => {
   useGSAP(() => {
     gsap.from(".Notes", {
       opacity: 0,
-      scale: 0.5,
-      x: -100,
+      scale: 0.8,
       stagger: 0.2,
-      duration: 1,
+      duration: 0.8,
       
     });
   });
