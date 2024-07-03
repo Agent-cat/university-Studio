@@ -4,10 +4,10 @@ import { FirstYearSubjects } from '../constants/constants'
 const FirstYear = () => {
   return (
     <div className=' w-full h-screen overflow-scroll '>
-       <div className=" mx-8 flex items-center ">
+       <div className=" ml-10 md:ml-7 flex items-center ">
         
           <div >
-            <ul className=" grid gris-cols-1 md:grid-cols-3 gap-4  mx-[10%] md:mx-0  ">
+            <ul className=" grid gris-cols-1 md:grid-cols-3 gap-4  items-center mx-[10%] md:mx-0  ">
               {
                 FirstYearSubjects.map((subject,index)=>(
                   <div key={index} className="  col-span-1  text-black bg-white shadow-md bg-clip-border rounded-xl   w-[90%] md:w-auto">
