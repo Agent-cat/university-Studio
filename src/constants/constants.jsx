@@ -12,9 +12,14 @@ export const NavItems=[
     
 ]
 export const FirstYearSubjects=[
-    {lable:"Mathematics",to:"/Notes/First-Year/Mathematics"},
-    {lable:"Physics",to:"/Notes/First-Year/Physics"},
-    {lable:"Chemistry",to:"/Notes/First-Year/Chemistry"},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"# ",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
+   {lable:"LINEAR ALGEBRA & CALCULUS FOR ENGINEERS ",DownloadLink:"https://drive.google.com/drive/folders/1_qN6RuXKv9K5fd_KN6fe28peFMqIdohs?usp=drive_link",icon:""},
     
     
 
