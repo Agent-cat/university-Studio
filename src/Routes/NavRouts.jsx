@@ -8,6 +8,10 @@ import Xerox from '../Components/Xerox'
 import AboutKLU from '../Components/AboutKLU'
 import AboutUs from '../Components/AboutUs'
 import GamingStudio from '../Components/GamingStudio'
+import FirstYear from '../Components/FirstYear'
+import SecondYear from '../Components/SecondYear'
+import ThirdYear from '../Components/ThirdYear'
+import FourthYear from '../Components/FourthYear'
 
 const NavRouts = () => {
   return (
@@ -20,6 +24,11 @@ const NavRouts = () => {
       <Route path="About-KLU" element={<AboutKLU />}></Route>
       <Route path="About-Us" element={<AboutUs />}></Route>
       <Route path="GamingStudio" element={<GamingStudio />}></Route>
+      <Route path="Notes/First-Year" element={<FirstYear />}></Route>
+      <Route path="Notes/Second-Year" element={<SecondYear />}></Route>
+      <Route path="Notes/Third-Year" element={<ThirdYear />}></Route>
+      <Route path="Notes/Fourth-Year" element={<FourthYear />}></Route>
+
     </Routes>
   )
 }

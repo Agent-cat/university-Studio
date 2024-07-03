@@ -11,3 +11,11 @@ export const NavItems=[
     
     
 ]
+export const FirstYearSubjects=[
+    {lable:"Mathematics",to:"/Notes/First-Year/Mathematics"},
+    {lable:"Physics",to:"/Notes/First-Year/Physics"},
+    {lable:"Chemistry",to:"/Notes/First-Year/Chemistry"},
+    
+    
+
+]
