@@ -28,7 +28,7 @@ const FirstYear = () => {
 
               {
                 FirstYearSubjects.map((subject,index)=>(
-                  <div key={index} className=" z-50  col-span-1  hover:scale-105 duration-100  text-black bg-white shadow-md bg-clip-border rounded-xl   w-[90%] md:w-auto">
+                  <div key={index} className=" z-10  col-span-1  hover:scale-105 duration-100  text-black bg-white shadow-md bg-clip-border rounded-xl   w-[90%] md:w-auto">
                   <div className="  mx-4 mt-4 overflow-hidden  text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-48">
                     <img src={Lace} />
                   </div>
