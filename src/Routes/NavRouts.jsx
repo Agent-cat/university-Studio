@@ -1,33 +1,38 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from '../Components/Home'
-import AttendenceCalculator from '../Components/AttendenceCalculator'
-import Notes from '../Components/Notes'
-import Clubs from '../Components/Clubs'
-import Xerox from '../Components/Xerox'
-import AboutKLU from '../Components/AboutKLU'
-import AboutUs from '../Components/AboutUs'
-import GamingStudio from '../Components/GamingStudio'
-import FirstYear from '../Components/FirstYear'
-import SecondYear from '../Components/SecondYear'
-import ThirdYear from '../Components/ThirdYear'
-import FourthYear from '../Components/FourthYear'
-
+import AcademicRegistration from '../Components/AcademicRegistration'
+import AttendanceRegister from '../Components/AttendanceRegister'
+import CareerChoice from '../Components/CareerChoice'
+import Courses from '../Components/Courses'
+import CounsellingDiary from '../Components/CounsellingDiary'
+import ClubsActivities from '../Components/ClubsActivities'
+import ExamSection from '../Components/ExamSection'
+import Feedback from '../Components/Feedback'
+import FeePayments from '../Components/FeePayments'
+import HostelManagement from '../Components/HostelManagement'
+import Hallticket from '../Components/Hallticket'
+import InfrastructureRelated from '../Components/InfrastructureRelated'
+import Library from '../Components/Liberary'
 const NavRouts = () => {
   return (
-    <Routes>
+    <Routes >
       <Route path="/" element={<Home />}></Route>
-      <Route path="Attendence-Calculator" element={<AttendenceCalculator/>}></Route>
-      <Route path="Notes" element={<Notes />}></Route>
-      <Route path="Clubs" element={<Clubs />}></Route>
-      <Route path="Xerox" element={<Xerox />}></Route>
-      <Route path="About-KLU" element={<AboutKLU />}></Route>
-      <Route path="About-Us" element={<AboutUs />}></Route>
-      <Route path="GamingStudio" element={<GamingStudio />}></Route>
-      <Route path="Notes/First-Year" element={<FirstYear />}></Route>
-      <Route path="Notes/Second-Year" element={<SecondYear />}></Route>
-      <Route path="Notes/Third-Year" element={<ThirdYear />}></Route>
-      <Route path="Notes/Fourth-Year" element={<FourthYear />}></Route>
+      <Route path="/Academic-Registration" element={<AcademicRegistration />}></Route>
+      <Route path="/Attendance-register" element={<AttendanceRegister/>}></Route>
+      <Route path="/Career-Choice" element={<CareerChoice/>}></Route>
+      <Route path="/Courses" element={<Courses />}></Route>
+      <Route path="/Counselling-Diary" element={<CounsellingDiary />}></Route>
+      <Route path="/Clubs/Activities" element={<ClubsActivities />}></Route>
+      <Route path="/Exam-Section" element={<ExamSection />}></Route>
+      <Route path="/Feedback" element={<Feedback/>}></Route>
+      <Route path="/Fee-Payments" element={<FeePayments />}></Route>
+      <Route path="/Hostel-Management" element={<HostelManagement />}></Route>
+      <Route path="/Hallticket" element={<Hallticket/>}></Route>
+      <Route path="/Hallticket" element={<Hallticket/>}></Route>
+      <Route path="/Infrastructure-Related" element={<InfrastructureRelated/>}></Route>
+      <Route path="/Library" element={<Library/>}></Route>
+      
 
     </Routes>
   )

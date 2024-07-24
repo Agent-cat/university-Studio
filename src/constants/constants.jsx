@@ -1,13 +1,20 @@
-import { Calculator,ScanText,NotebookPenIcon,Users,  Headset,CircleHelp, Instagram } from "lucide-react"
+import { Calculator,ScanText,NotebookPenIcon,Users,  Headset,CircleHelp, Instagram,IndianRupee,BedDouble,BookOpenCheck,GraduationCap  } from "lucide-react"
 export const NavItems=[
-    {lable:"Attendence Calculator",to:"/Attendence-Calculator",icon:<Calculator />},
-    {lable:"Xerox",to:"/Xerox",icon:<ScanText />},
-    {lable:"Notes",to:"/Notes", icon:<NotebookPenIcon />},
-    {lable:"Clubs",to:"/Clubs", icon: <Users />},   
-    {lable:"Gaming Studio",to:"/GamingStudio", icon: <Headset />},
-    {lable:"About KLU",to:"/About-KLU", icon:<CircleHelp />},
-    {lable:"About Us",to:"/About-Us", icon:<Instagram />}, 
-     
+    {lable:"Academic Registration",to:"/Academic-Registration",icon:<Calculator />},
+    {lable:"Attendance register",to:"/Attendance-register",icon:<ScanText />},
+    {lable:"Career Choice",to:"/Career-Choice", icon:<NotebookPenIcon />},
+    {lable:"Courses",to:"/Courses", icon: <GraduationCap />},   
+    {lable:"Counselling Diary",to:"/Counselling-Diary", icon: <Headset />},
+    {lable:"Clubs/Activities",to:"/Clubs/Activities", icon:<CircleHelp />},
+    {lable:"Exam Section",to:"/Exam-Section", icon:<BookOpenCheck />}, 
+    {lable:"Feedback",to:"/Feedback", icon:<NotebookPenIcon />}, 
+    {lable:"Fee Payments",to:"/Fee-Payments", icon:<IndianRupee />}, 
+    {lable:"Hostel Management",to:"/Hostel-Management", icon:<BedDouble />}, 
+    {lable:"Hallticket",to:"/Hallticket", icon:<CircleHelp />}, 
+    {lable:"Infrastructure Related",to:"/Infrastructure-Related", icon:<NotebookPenIcon />}, 
+    {lable:"Library",to:"/Library", icon:<Instagram />}, 
+ 
+    
     
     
 ]

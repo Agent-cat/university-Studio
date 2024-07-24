@@ -13,7 +13,7 @@ function Home() {
     
   });
   return (
-    <div className='w-full h-full bg-white'>
+    <div className='w-full h-full bg-white  '>
       <h1 className='headding text-center text-red-500 font-bold font-[oswald] text-4xl  mt-6 tracking-wide'>Home</h1>
     </div>
   )
