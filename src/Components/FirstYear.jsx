@@ -15,6 +15,7 @@ const FirstYear = () => {
       scale: 0.8,
       stagger: 0.2,
       duration: 0.8,
+
       
     });
   });
